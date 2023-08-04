@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* first section */
+#color{
+    background-color: #745a82;
+    height: 15px;
+}
+/* navbar section */
+.navbar{
+    height: 113px;
+}
+.nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: #745a82!important;
+    padding-top: 52px!important;
+}
+#nav_anchor1{
+   padding-right: 78px;
+}
+#nav_anchor2{
+   padding-right: 78px;
+}
+#nav_anchor3{
+   padding-right: 48px;
+}
+#nav_anchor4{
+    padding-right: 61px;
+}
+#nav_anchor5{
+   padding-right: 63px;
+}
+.navbar{
+    background-color: #fcfcfc;
+    box-shadow: 0px 0px 5px grey;
+}
+/* banner section */
+#banner{
+    background-image: url(classe\ background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 2035px;
+    background-position-y: -752px;
+}
+#banner_row{
+    height: 973px;
+    background-image: url(banner\ bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#circle{
+    padding-top: 200px;
+    height: 703px;
+    width: 703px;
+    margin: 0 auto;
+    position: relative;
+}
+#circle_img{
+    height: 703px;
+    width: 703px;
+}
+#lotus{
+    height: 338px;
+    width: 346px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#lotus_img{
+    height: 46px;
+    width: 62px;
+    margin-top: 40px;
+}
+#lotus_head1{
+    font-size: 41.67px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+    line-height: 1;
+}
+#lotus_head2{
+    font-size: 58.33px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 63px;
+    margin-bottom: 0;
+    line-height: 0.8;
+}
+#lotus_para{
+    font-family: 25px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 57px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+#banner_row{
+    margin-right: -15px!important;
+}
+/* classes section */
+#classes{
+    height: 900px;
+}
+#classes_container{
+    height: 1000px;
+}
+#classes_head1{
+    font-size: 41.67px;
+    color: #745a82;
+    padding-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+}
+#classe_head2{
+    font-size: 41.67px;
+    color: #745a82;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#classes_row{
+    padding-top: 100px;
+}
+.classes_card{
+    width: 322px;
+    height: 526px;
+    text-align: center;
+}
+.classes_card_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.classes_card_head1{
+    font-size: 33.33px;
+    color: #745a82;
+    padding-left: 27px;
+    padding-top: 31px;
+    margin-bottom: 0;
+    line-height: 0.8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.classes_card_text_box{
+    text-align: left;
+}
+.classes_card_para{
+    font-size: 25px;
+    color: #745a82;
+    padding-top: 28px;
+    padding-left: 27px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.horizontal{
+    margin-bottom: 22px;
+    width: 291px;
+    color: #745a82;
+    border-width: 2px;
+    border-color: #745a82;
+    margin-left: 27px;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #745a82;
+    margin-top: 2px;
+}
+.classes_card_head2{
+    font-size: 27.95px;
+    color: #745a82;
+    line-height: 0.8;
+}
+.time{
+   font-weight: bold;
+   margin-left: 27px;
+}
+.group_menu{
+    cursor: pointer;
+}
+#classes-btn{
+    height: 77px;
+    width: 331px;
+    background-color: #745a82;
+    font-size: 23.15px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    margin-top: 79px;
+    margin-bottom: 75px;
+}
+.courses_col{
+    justify-content: center;
+}
+/* summer section */
+#summer{
+    background-image: url(summer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1040px;
+}
+#classes_offer_img{
+    padding-left: 63px;
+}
+#classes_offer_head1{
+    margin-top: -255px;
+    margin-left: 229px;
+}
+#classes_offer_head2{
+    padding-top: 191px;
+    padding-left: 172px;
+}
+#classes_offer_para1{
+    padding-top: 47px;
+    padding-left: 172px;
+}
+#classes_offer_para2{
+    padding-left: 172px;
+}
+/* practices section */
+#practices{
+    height: 1069px;
+}
+#practices1{
+     height: 998px;
+    background-image: url(practice\ img1.png);
+    background-repeat: no-repeat;
+    background-size: 214% 59%;
+    background-position: 0% -12%;
+}
+#practices_head1{
+    font-size: 50px;
+    color: #745a82;
+    padding-top: 170px;
+    padding-left: 137px;
+    text-transform: uppercase;
+}
+#practices_head2{
+    font-size: 33.33px;
+    color: #745a82;
+    padding-top: 95px;
+    padding-left: 137px;
+}
+#practices_para1{
+    font-size: 25px;
+    color: #745a82;
+    padding-top: 43px;
+    padding-left: 134px;
+}
+#practices_hr{
+    max-width: 420px;
+    border-width: 2px;
+    border-color: #745a82;
+    margin-left: 131px;
+    margin-top: 40px;
+}
+#practices_para2{
+    font-size: 25px;
+    color: #745a82;
+    padding-top: 44px;
+    padding-left: 134px;
+}
+#practices_last_box{
+    width: 266px;
+    height: 113px;
+    margin-left: 132px;
+    margin-top: 57px;
+}
+#practices_head3{
+    font-size: 25px;
+    color: #745a82;
+    float: left;
+    margin-bottom: 80px;
+}
+#practices_head4{
+    font-size: 25px;
+    color: #745a82;
+    float: right;
+}
+#practices_main_img{
+    width: 606px;
+    height: 606px;
+    margin-top: 149px;
+}
+#practices_head5{
+    font-size: 25px;
+    color: #745a82;
+    padding-right: 160px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-top: -52px;
+}
+#practices_img_text{
+    display: flex;
+    justify-content: end;
+}
+/* position section */
+#position{
+    height: 998px;
+}
+#position_img{
+    width: 606px;
+    height: 606px;
+    margin-top: 147px;
+    margin-left: 59px;
+}
+#position_head5{
+    font-size: 25px;
+    color: #745a82;
+    padding-left: 126px;
+    width: 50px;
+    /* margin-top: -52px; */
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+#position_bg{
+    background-image: url(position_bg.png);
+    background-repeat: no-repeat;
+    background-size: 175% 57%;
+    background-position: 100% -12%;
+}
+/* exercise section */
+#horizontal_rule{
+    height: 259px;
+}
+#horizontal_line{
+    height: 40px;
+    position: relative;
+    text-align: center;
+    margin-top: 157px;
+}
+#horizontal_head{
+    font-size: 33.33px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#horizontal_head::before{
+    content: "";
+    display: block;
+    width: 466px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-color: #745a82;
+    z-index: -2;
+}
+#horizontal_head::after{
+    content: "";
+    display: block;
+    width: 466px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: #745a82;
+    z-index: -2;
+}
+#hr{
+    background-color: #fff;
+}
+#horizontal_para{
+    font-size: 33.33px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+}
+#exercice{
+    height: 506px;
+}
+#exercise_row{
+    height: 506px;
+    margin-top: 111px;
+}
+.exercise_box{
+    height: 380px;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+.exercise_box_img{
+    height: 139px;
+    width: 139px;
+}
+.exercise_box_head{
+    font-size: 25px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 45px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.exercise_box_para{
+    font-size: 25px;
+    color: #745a82;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 53px;
+    line-height: 1.2;
+}
+#exercise_boxA{
+    display: flex;
+    justify-content: end;
+}
+#exercise_boxB{
+    display: flex;
+    justify-content: center;
+}
+/* summer classes section */
+
+/* workshop section */
+
+#workshop_para1{
+    font-size: 14px;
+    color: #70577d;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    float: left;
+    padding-left: 106px;
+    padding-right: 84px;
+    padding-top: 100px;
+    letter-spacing: 10px;
+}
+#workshop_head1{
+    font-size: 50px;
+    color: #70577d;
+    float: left;
+    padding-top: 75px;
+    text-transform: uppercase;
+}
+#workshop_span{
+    font-weight: bold;
+}
+#workshop_head2{
+    font-size: 25px;
+    color: #70577d;
+    padding-top: 223px;
+}
+#workshop_para2{
+    font-size: 25px;
+    color: #70577d;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+#workshop_para3{
+    font-size: 25px;
+    color: #70577d;
+    padding-top: 10px;
+}
+#workshop_img1{
+    height: 535px;
+    width: 535px;
+    margin-top: 64px;
+}
+#workshop_horizontal_para{
+    font-size: 25px;
+    color: #70577d;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-top: -207px;
+    letter-spacing: 10px;
+}
+/* footer section */
+#footer{
+    height: 780px;
+    background-image: url(footer\ bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#footer_row{
+    margin-top: -5px;
+    padding-bottom: 40px;
+}
+#footer_lotus{
+    padding-top: 59px;
+}
+#footer_para1{
+    font-size: 25px;
+    color: #70577d;
+    padding-top: 66px;
+    text-transform: uppercase;
+}
+#footer_para2{
+    color: #70577d;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#footer_head1{
+    font-size: 25px;
+    color: #70577d;
+    padding-left: 178px;
+    margin-bottom: 0;
+}
+#footer_para3{
+    font-size: 20.83px;
+    color: #70577d;
+    padding-left: 178px;
+    margin-bottom: 0;
+}
+#footerimg{
+    padding-left: 178px;
+    padding-top: 50px;
+}
+.footer_head2{
+    font-size: 20.83px;
+    color: #70577d;
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+.team{
+    font-size: 16.67px;
+    color: #70577d;
+
+}
+.footer_para4{
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+.footer_para5{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+#footer_last{
+    height: 40px;
+    background-color: #745a82;
+}

@@ -1,0 +1,728 @@
+@media (max-width: 575.98px) {
+    br{
+      display: none;
+    }
+    /* navbar section */
+    .navbar {
+        height: auto;
+    }
+
+    .nav-link {
+        padding-top: 20px !important;
+        font-size: 19px;
+    }
+
+    #logo {
+        width: 95px;
+    }
+
+    /* banner section */
+    #banner {
+        height: auto;
+        background-size: 100% 66%;
+        background-position-y: -946px;
+    }
+
+    #banner_row {
+        height: 450px;
+    }
+
+    #circle_img {
+        height: 237px;
+        width: 237px;
+    }
+
+    #lotus {
+        top: 164%;
+        left: 53%;
+        width: 266px;
+    }
+
+    #circle {
+        height: 225px;
+        width: 224px;
+        padding-top: 138px;
+    }
+
+    #lotus_head1 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #lotus_para {
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #lotus_head2 {
+        font-size: 34.33px;
+        padding-top: 8px;
+    }
+
+    #lotus_img {
+        height: 35px;
+        width: 54px;
+        margin-top: -2px;
+    }
+
+    /* classes section */
+    #classes_container {
+        height: auto;
+    }
+
+    #classes {
+        height: auto;
+    }
+
+    .classes_card {
+        width: 230px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .classes_card_img {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    .classes_card_head2 {
+        font-size: 24px;
+    }
+
+    .horizontal {
+        width: 200px;
+    }
+
+    #classes_head1 {
+        font-size: 34px;
+    }
+
+    #classe_head2 {
+        font-size: 26px;
+    }
+
+    /* classes section */
+    #summer {
+        height: 687px;
+    }
+
+    #classes-btn {
+        height: 56px;
+        width: 220px;
+    }
+
+    #classes_offer_img {
+        width: 139px;
+        padding-left: 0;
+    }
+
+    #classes_offer_head1 {
+        margin-top: -86px;
+        margin-left: 32px;
+        font-size: 20px;
+    }
+
+    #classes_offer_head2 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    #classes_offer_para1 {
+        padding-left: 0;
+    }
+
+    #classes_offer_para2 {
+        padding-left: 0;
+    }
+
+    /* practice section */
+    #practices {
+        height: auto;
+    }
+
+    #practices1 {
+        height: auto;
+    }
+
+    #practices_head1 {
+        padding-left: 0;
+    }
+
+    #practices_head2 {
+        padding-left: 0;
+    }
+
+    #practices_para1 {
+        padding-left: 0;
+    }
+
+    #practices_hr {
+        margin-left: 0;
+    }
+
+    #practices_para2 {
+        padding-left: 0;
+    }
+
+    #practices_last_box {
+        width: 234px;
+        margin-left: 0;
+    }
+
+    #practices_main_img {
+        width: 228px;
+        height: 228px;
+        margin-top: 0;
+        display: block;
+        margin: auto;
+    }
+
+    #practices_head5 {
+        padding-right: 0;
+    }
+    #practices_head4{
+        float: unset;
+    }
+
+    /* position section */
+    #position {
+        height: auto;
+    }
+
+    #position_img {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+        margin-top: 60px;
+        display: block;
+        margin: auto;
+    }
+
+    #position_head5 {
+        padding-left: 0;
+    }
+
+    /* exercise section */
+    #horizontal_rule {
+        height: auto;
+    }
+
+    #horizontal_head::before {
+        width: 268px;
+    }
+
+    #horizontal_head::after {
+        width: 268px;
+    }
+
+    /* exercise section */
+    #exercice {
+        height: 1405px;
+    }
+
+    #exercise_boxA {
+        justify-content: center;
+    }
+
+    #exercise_boxB {
+        justify-content: center;
+    }
+
+    #exercise_boxC {
+        display: flex;
+        justify-content: center;
+    }
+
+    .exercise_box {
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    /* workshop section */
+    #workshop_horizontal_para {
+        padding-left: 0;
+    }
+
+    #workshop_img1 {
+        height: 240px;
+        width: 240px;
+        margin-top: 64px;
+        margin: auto;
+        display: block;
+    }
+
+    #workshop_head1 {
+        font-size: 17px;
+        padding-top: 96px;
+    }
+
+    #workshop_para1 {
+        padding-left: 0;
+    }
+
+    #workshop_head2 {
+        font-size: 25px;
+    }
+
+    /* footer section */
+    #footer {
+        height: auto;
+        background-size: 100% 35%;
+    }
+
+    #footer_head1 {
+        padding-left: 0;
+    }
+
+    #footer_para3 {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    br{
+        display: none;
+    }
+    /* navbar section */
+    .navbar {
+        height: auto;
+    }
+
+    .nav-link {
+        padding-top: 20px !important;
+        font-size: 19px;
+    }
+
+    #logo {
+        width: 95px;
+    }
+
+    /* banner section */
+    #banner {
+        height: auto;
+        background-size: 100% 66%;
+        background-position-y: -946px;
+    }
+
+    #banner_row {
+        height: 450px;
+    }
+
+    #circle_img {
+        height: 237px;
+        width: 237px;
+    }
+
+    #lotus {
+        top: 164%;
+        left: 53%;
+        width: 266px;
+    }
+
+    #circle {
+        height: 225px;
+        width: 224px;
+        padding-top: 138px;
+    }
+
+    #lotus_head1 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #lotus_para {
+        font-size: 12px;
+        margin-bottom: 0;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #lotus_head2 {
+        font-size: 34.33px;
+        padding-top: 8px;
+    }
+
+    #lotus_img {
+        height: 35px;
+        width: 54px;
+        margin-top: -2px;
+    }
+
+    /* classes section */
+    #classes_container {
+        height: auto;
+    }
+
+    #classes {
+        height: auto;
+    }
+
+    .classes_card {
+        width: 230px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .classes_card_img {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    .classes_card_head2 {
+        font-size: 24px;
+    }
+
+    .horizontal {
+        width: 200px;
+    }
+
+    #classes_head1 {
+        font-size: 34px;
+    }
+
+    #classe_head2 {
+        font-size: 26px;
+    }
+
+    /* classes section */
+    #summer {
+        height: 687px;
+    }
+
+    #classes-btn {
+        height: 56px;
+        width: 220px;
+    }
+
+    #classes_offer_img {
+        width: 139px;
+        padding-left: 0;
+    }
+
+    #classes_offer_head1 {
+        margin-top: -86px;
+        margin-left: 32px;
+        font-size: 20px;
+    }
+
+    #classes_offer_head2 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    #classes_offer_para1 {
+        padding-left: 0;
+    }
+
+    #classes_offer_para2 {
+        padding-left: 0;
+    }
+
+    /* practice section */
+    #practices {
+        height: auto;
+    }
+
+    #practices1 {
+        height: auto;
+    }
+
+    #practices_head1 {
+        padding-left: 0;
+    }
+
+    #practices_head2 {
+        padding-left: 0;
+    }
+
+    #practices_para1 {
+        padding-left: 0;
+    }
+
+    #practices_hr {
+        margin-left: 0;
+    }
+
+    #practices_para2 {
+        padding-left: 0;
+    }
+
+    #practices_last_box {
+        width: 234px;
+        margin-left: 0;
+    }
+
+    #practices_main_img {
+        width: 228px;
+        height: 228px;
+        margin-top: 0;
+        display: block;
+        margin: auto;
+    }
+
+    #practices_head5 {
+        padding-right: 0;
+    }
+    #practices_head4{
+        float: unset;
+    }
+
+    /* position section */
+    #position {
+        height: auto;
+    }
+
+    #position_img {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+        margin-top: 60px;
+        display: block;
+        margin: auto;
+    }
+
+    #position_head5 {
+        padding-left: 0;
+    }
+
+    /* exercise section */
+    #horizontal_rule {
+        height: auto;
+    }
+
+    #horizontal_head::before {
+        width: 268px;
+    }
+
+    #horizontal_head::after {
+        width: 268px;
+    }
+
+    /* exercise section */
+    #exercice {
+        height: 1405px;
+    }
+
+    #exercise_boxA {
+        justify-content: center;
+    }
+
+    #exercise_boxB {
+        justify-content: center;
+    }
+
+    #exercise_boxC {
+        display: flex;
+        justify-content: center;
+    }
+
+    .exercise_box {
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    /* workshop section */
+    #workshop_horizontal_para {
+        padding-left: 0;
+    }
+
+    #workshop_img1 {
+        height: 240px;
+        width: 240px;
+        margin-top: 64px;
+        margin: auto;
+        display: block;
+    }
+
+    #workshop_head1 {
+        font-size: 17px;
+        padding-top: 96px;
+    }
+
+    #workshop_para1 {
+        padding-left: 0;
+    }
+
+    #workshop_head2 {
+        font-size: 25px;
+    }
+
+    /* footer section */
+    #footer {
+        height: auto;
+        background-size: 100% 35%;
+    }
+
+    #footer_head1 {
+        padding-left: 0;
+    }
+
+    #footer_para3 {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        height: auto;
+    }
+
+    #workshop_horizontal_para {
+        padding-left: 726px;
+        font-size: 14px;
+    }
+
+    #workshop_img1 {
+        width: 380px;
+        height: 380px;
+    }
+
+    #circle_img {
+        height: 650px;
+        width: 650px;
+        margin: auto;
+        display: block;
+    }
+
+    #lotus {
+        top: 81%;
+        left: 50%;
+    }
+
+    .exercise_box {
+        width: 226px;
+    }
+
+    #practices_head1 {
+        padding-left: 120px;
+    }
+
+    #practices_last_box {
+        width: 212px;
+    }
+
+    .classes_card_img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .classes_card {
+        width: 218px;
+    }
+
+    .horizontal {
+        width: 192px;
+    }
+
+    #workshop_img1 {
+        width: 356px;
+        height: 356px;
+    }
+
+    #workshop_head1 {
+        font-size: 17px;
+    }
+
+    #workshop_head2 {
+        padding-top: 189px;
+    }
+
+    .classes_card_head2 {
+        font-size: 22px;
+    }
+
+    #classes-btn {
+        margin-top: 29px;
+    }
+
+    #classes_offer_img {
+        width: 291px;
+    }
+
+    #classes_offer_head1 {
+        margin-top: -169px;
+        margin-left: 149px;
+    }
+
+    #classes_offer_head2 {
+        padding-left: 86px;
+    }
+
+    #summer {
+        height: 814px;
+    }
+
+    #practices {
+        height: 1306px;
+    }
+
+    #practices_main_img {
+        width: 378px;
+        height: 378px;
+    }
+
+    #practices_head1 {
+        font-size: 46px;
+    }
+
+    #position {
+        height: auto;
+    }
+
+    #position_img {
+        width: 606px;
+        height: 419px;
+    }
+
+    #footer {
+        height: auto;
+        background-size: 100% 41%;
+    }
+
+    #footer_lotus {
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    #logo {
+        width: 141px;
+    }
+
+    #workshop_img1 {
+        width: 482px;
+        height: 482px;
+    }
+
+    .exercise_box {
+        width: 286px;
+    }
+
+    #practices_main_img {
+        height: 500px;
+        width: 500px;
+    }
+
+    #classes_offer_img {
+        width: 300px;
+    }
+
+    #classes_offer_head1 {
+        margin-top: -169px;
+        margin-left: 153px;
+    }
+
+    #workshop_head1{
+        font-size: 31px;
+    }
+
+    #footer {
+        height: auto;
+    }
+}

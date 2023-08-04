@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project6</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- first section -->
+  <section class="fixed-top">
+    <div id="color">
+
+    </div>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img id="logo" src="navbar logo.png" alt="pic">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="nav_anchor1" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_anchor2" href="#">Class</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_anchor3" href="#">Promo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_anchor4" href="#">Online Class</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_anchor5" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!-- banner section -->
+  <div class="container-fluid" id="banner">
+    <div class="row" id="banner_row">
+      <div class="col-sm-12">
+        <div id="circle">
+          <img id="circle_img" src="banner circle.png" alt="pic">
+          <div id="lotus">
+            <h2 id="lotus_head1">Healthy & Fresh</h2>
+            <h1 id="lotus_head2">Yoga</h1>
+            <p id="lotus_para">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing</p>
+            <img class="img-fluid" id="lotus_img" src="banner lotus.png" alt="pic">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- classes section -->
+    <!-- <div class="container-fluid" id="classes"> -->
+    <div class="container" id="classes_container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 id="classes_head1">MEET OUR</h2>
+          <h2 id="classe_head2">YOGA CLASSES</h2>
+        </div>
+      </div>
+      <div class="row" id="classes_row">
+        <div class="col-sm-12 col-md-4 d-flex courses_col">
+          <div class="classes_card">
+            <div>
+              <img class="classes_card_img" src="classes1.png" alt="pic">
+            </div>
+            <div class="group_menu">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <div class="classes_card_text_box">
+              <h2 class="classes_card_head1">Hatha</h2>
+              <p class="classes_card_para">Lorem ipsum sit amet, <br> consectetur adipisicing...</p>
+              <hr class="horizontal">
+              <h1 class="classes_card_head2"><span class="time">Monday </span>20:00 hs. </h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex courses_col">
+          <div class="classes_card">
+            <div>
+              <img class="classes_card_img" src="classes2.png" alt="pic">
+            </div>
+            <div class="group_menu">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <div class="classes_card_text_box">
+              <h2 class="classes_card_head1">Hatha</h2>
+              <p class="classes_card_para">Lorem ipsum sit amet, <br> consectetur adipisicing...</p>
+              <hr class="horizontal">
+              <h1 class="classes_card_head2"><span class="time">Monday </span>20:00 hs. </h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex courses_col">
+          <div class="classes_card">
+            <div>
+              <img class="classes_card_img" src="classes3.png" alt="pic">
+            </div>
+            <div class="group_menu">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+            <div class="classes_card_text_box">
+              <h2 class="classes_card_head1">Hatha</h2>
+              <p class="classes_card_para">Lorem ipsum sit amet, <br> consectetur adipisicing...</p>
+              <hr class="horizontal">
+              <h1 class="classes_card_head2"><span class="time">Monday </span>20:00 hs. </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button id="classes-btn">
+            SHOW MORE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- summer section -->
+  <div class="container-fluid" id="summer">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="offer_box">
+          <img id="classes_offer_img" src="classes offer img.png" alt="pic">
+        </div>
+        <h1 id="classes_offer_head1">10% <br> <span>OFF</span></h1>
+        <h1 id="classes_offer_head2"> SUMMER<br> <span>CLASSES</span></h1>
+        <p id="classes_offer_para1">22.12.2020</p>
+        <p id="classes_offer_para2">24.03. 2021</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- practice section -->
+  <div class="container-fluid" id="practices">
+    <div class="row">
+      <div class="col-sm-12 col-md-6" id="practices1">
+        <h1 id="practices_head1">practice <br>
+          dynamics</h1>
+        <h2 id="practices_head2">1. HATHA YOGA</h2>
+        <p id="practices_para1">Hatha is the most classic yoga. Its origin <br> is in the Raya Yoga of Patanjali and
+          <br> other classical texts such as <br> Bhagavad Gita and Hatha Yoga <br> Pradipika.
+        </p>
+        <hr id="practices_hr">
+        <p id="practices_para2">10 modules <br>
+          divided into 7 weekends</p>
+        <div id="practices_last_box">
+          <h2 id="practices_head3">Start <br>
+            April 15 <br>
+            20.00 hs</h2>
+          <h2 id="practices_head4">Price<br>
+            $900</h2>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div id="practice_img">
+          <img class="img-fluid" id="practices_main_img" src="practices_img.png" alt="pic">
+        </div>
+        <div id="practices_img_text">
+          <h2 id="practices_head5">HATHA</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- position section -->
+  <div class="container-fluid" id="position">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div id="position_img_box">
+          <img class="img-fluid" src="postion img.png" alt="pic" id="position_img">
+        </div>
+        <div id="position_img_text">
+          <h2 id="position_head5">HATHA</h2>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6" id="position_bg">
+        <h1 id="practices_head1">practice <br>
+          dynamics</h1>
+        <h2 id="practices_head2">1. HATHA YOGA</h2>
+        <p id="practices_para1">Hatha is the most classic yoga. Its origin <br> is in the Raya Yoga of Patanjali and
+          <br> other classical texts such as <br> Bhagavad Gita and Hatha Yoga <br> Pradipika.
+        </p>
+        <hr id="practices_hr">
+        <p id="practices_para2">10 modules <br>
+          divided into 7 weekends</p>
+        <div id="practices_last_box">
+          <h2 id="practices_head3">Start <br>
+            April 15 <br>
+            20.00 hs</h2>
+          <h2 id="practices_head4">Price<br>
+            $900</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="horizontal_rule">
+    <div class="row">
+      <div class="col-sm-12" id="horizontal_line">
+        <h2 id="horizontal_head"> <span id="hr">HEALTHY</span>
+          <h2>
+            <p id="horizontal_para">LIFE</p>
+      </div>
+    </div>
+  </div>
+  <!-- exercise section -->
+  <div class="container-fluid" id="exercice">
+    <div class="row" id="exercise_row">
+      <div class="col-sm-12 col-md-4" id="exercise_boxA">
+        <div class="exercise_box d-flex" id="exercise_box1">
+          <img class="img-fluid" src="exercise.png" alt="pic">
+          <div class="exercise_box_text text-center">
+            <h2 class="exercise_box_head">EXERCISE</h2>
+            <p class="exercise_box_para">Lorem ipsum dolor sit amet <br> consectetur adipiscing, elit mo- <br> lestie
+              posuere</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4" id="exercise_boxB">
+        <div class="exercise_box d-flex" id="exercise_box2">
+          <img class="img-fluid" src="feeding.png" alt="pic">
+          <div class="exercise_box_text text-center">
+            <h2 class="exercise_box_head">FEEDING</h2>
+            <p class="exercise_box_para">Lorem ipsum dolor sit amet <br> consectetur adipiscing, elit mo- <br> lestie
+              posuere</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4" id="exercise_boxC">
+        <div class="exercise_box d-flex" id="exercise_box3">
+          <img class="img-fluid" src="meditation.png" alt="pic">
+          <div class="exercise_box_text text-center">
+            <h2 class="exercise_box_head">MEDITATION</h2>
+            <p class="exercise_box_para">Lorem ipsum dolor sit amet <br> consectetur adipiscing, elit mo- <br> lestie
+              posuere</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- summer_classes section -->
+  <div class="container" id="classes_container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 id="classes_head1">MEET OUR</h2>
+        <h2 id="classe_head2">YOGA CLASSES</h2>
+      </div>
+    </div>
+    <div class="row" id="classes_row">
+      <div class="col-sm-12 col-md-4 d-flex courses_col">
+        <div class="classes_card">
+          <div>
+            <img class="classes_card_img" src="classes1.png" alt="pic">
+          </div>
+          <div class="group_menu">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="classes_card_text_box">
+            <h2 class="classes_card_head1">Hatha</h2>
+            <p class="classes_card_para">Lorem ipsum sit amet, <br> consectetur adipisicing...</p>
+            <hr class="horizontal">
+            <h1 class="classes_card_head2"><span class="time">Monday </span>20:00 hs. </h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 d-flex courses_col">
+        <div class="classes_card">
+          <div>
+            <img class="classes_card_img" src="classes2.png" alt="pic">
+          </div>
+          <div class="group_menu">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="classes_card_text_box">
+            <h2 class="classes_card_head1">Hatha</h2>
+            <p class="classes_card_para">Lorem ipsum sit amet, <br> consectetur adipisicing...</p>
+            <hr class="horizontal">
+            <h1 class="classes_card_head2"><span class="time">Monday </span>20:00 hs. </h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 d-flex courses_col">
+        <div class="classes_card">
+          <div>
+            <img class="classes_card_img" src="classes3.png" alt="pic">
+          </div>
+          <div class="group_menu">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="classes_card_text_box">
+            <h2 class="classes_card_head1">Hatha</h2>
+            <p class="classes_card_para">Lorem ipsum sit amet, <br> consectetur adipisicing...</p>
+            <hr class="horizontal">
+            <h1 class="classes_card_head2"><span class="time">Monday </span>20:00 hs. </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <button id="classes-btn">
+          SHOW MORE
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- workshop section -->
+  <div class="container-fluid" id="workshop">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <p id="workshop_para1">INITIATION</p>
+        <h1 id="workshop_head1">yoga initiation <br> <span id="workshop_span">workshop</span></h1>
+        <h2 id="workshop_head2">TRY YOUR FIRST FREE <br> YOGA CLASS</h2>
+        <p id="workshop_para2">22.12.2020</p>
+        <p id="workshop_para3">24.03.2021</p>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div id="workshop_img">
+          <img id="workshop_img1" src="workshop img.png" alt="pic">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="footer">
+    <div class="row" id="footer_row">
+      <div class="col-12">
+        <p id="workshop_horizontal_para" class="ml-auto">WORKSHOP</p>
+        <div class="text-center" id="footer_main_content">
+          <img class="img-fluid" id="footer_lotus" src="footer lotus.png" alt="pic">
+          <p id="footer_para1">The asanas purify our body and keep it <br> healthy, making it a suitable vehicle for
+            <br> the soul.
+          </p>
+          <p id="footer_para2">,,</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-6">
+            <h2 id="footer_head1">ABOUT</h2>
+            <p id="footer_para3">Lorem ipsum dolor sit amet, consec <br>
+              tetur adipisicing elit, sed do eiusmod tempor incididunt <br> ultimam quantum</p>
+            <img class="img-fluid" src="about logo.png" alt="pic" id="footerimg">
+          </div>
+          <div class="col-sm-12 col-lg">
+            <h2 class="footer_head2">ABOUT</h2>
+            <a class="team" href="">
+              <p class="footer_para4">Team</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Join us</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Ethic</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Goals</p>
+            </a>
+          </div>
+          <div class="col-sm-12 col-lg">
+            <h2 class="footer_head2">ABOUT</h2>
+            <a class="team" href="">
+              <p class="footer_para4">Team</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Join us</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Ethic</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Goals</p>
+            </a>
+          </div>
+          <div class="col-sm-12 col-lg">
+            <h2 class="footer_head2">ABOUT</h2>
+            <a class="team" href="">
+              <p class="footer_para4">Team</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Join us</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Ethic</p>
+            </a>
+            <a class="team" href="">
+              <p class="footer_para5">Goals</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer_last">
+
+  </div>
+</body>
+
+</html>
